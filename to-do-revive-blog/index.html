@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="description" content="Developer and Speaker Thoughts">
+    <meta name="author" content="Al Zaudtke">
+    
+    <meta property="og:title" content="To Do - Revive Blog">
+    <meta property="og:url" content="https://zaudtke.com/to-do-revive-blog">
+    <meta property="og:description" content="Developer and Speaker Thoughts">
+    <meta property="og:site_name" content="Al Zaudtke">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="To Do - Revive Blog">
+    <meta name="twitter:description" content="Developer and Speaker Thoughts">
+    <meta name="twitter:url" content="https://zaudtke.com/to-do-revive-blog">
+    <meta name="twitter:site" content="@alzaudtke">
+
+
+
+    <title>To Do - Revive Blog</title>
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Serif:400,400italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/skeleton.min.css">
+    <link rel="stylesheet" href="/css/site.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+</head>  
+    <body>
+        <div id="pagewrapper">
+            <nav id="topnav">
+        <a id="homelink" href="/">Al Zaudtke </a>
+        <a id="aboutlink" href="/about">About</a>
+</nav>
+            <div class="hero-section" style="background:url('/images/todo.jpeg')  50% no-repeat;    background-size: cover; ">
+        <div class="hero-section-text">
+           <h1>To Do</h1>
+           <h5>...revive blog</h5>
+       </div>
+   </div>              
+
+<article>
+<div class="container">
+        <p class="blog-excerpt-meta">
+                <em>
+                     Aug 31, 2017
+                     
+                 </em>
+             </p>
+    <p>Well it’s been just over 3 years since I launched this blog.  In that time I wrote one post, yes, one post.  That’s not good.  I knew I wanted a static site.  I went down the path, and got it all set up, but it just didn’t work for me.  So the site sat idle.  I also wasn’t happy with how it looked, and wanted something else.  Lastly, I decided I didn’t need or want Bootstrap, so the search began.</p>
+<p>Since then, I’ve given 1 public presentation and numerous internal (at work) presentations.  I’m hoping to be able to do more of these, and am hoping that by keeping up with this project, it will help me with that goal.</p>
+<p>The new setup is still a static site, but I switched generators.  Bootstrap is also history.  The site is still hosted on GitHub Pages, and run through CloudFlare.  The “new” tech stack is as follows:</p>
+<ul>
+<li><a href="&quot;https://hexo.io">Hexo</a> For Site Generation on top of Node.js.  This uses ejs files, which were much easier for me to grok.</li>
+<li><a href="&quot;http://getskeleton.com">Skeleton</a> - CSS Grid Framework, with a few extras.</li>
+<li><a href="&quot;https://www.npmjs.com/package/clean-css-cli&quot;">clean-css-cli</a> Only used when I change my css files.  Not part of a build process.</li>
+</ul>
+<p>That’s it.  I built my own custom Hexo theme, tweaked some hexo settings, and got started.</p>
+<p>Hopefully it won’t be another 3 years before the next posts arrives.</p>
+
+    
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
+</div>
+</article>
+        </div>
+        <footer>
+    <div>
+        <a href="https://twitter.com/AlZaudtke"><i class="fa fa-inverse fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://github.com/zaudtke"><i class="fa fa-inverse fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/alzaudtke/"><i class="fa fa-inverse fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="/atom.xml"><i class="fa fa-inverse fa-rss" aria-hidden="true"></i></a>
+    </div>
+    <div>
+        &copy; <script>var now = new Date();document.write(now.getFullYear());</script> Al Zaudtke
+    </div>
+</footer>
+    </body>
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://zaudtke.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+    </script>
+
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Al Zaudtke</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zaudtke.com/"/>
+  <updated>2017-08-31T19:47:33.000Z</updated>
+  <id>https://zaudtke.com/</id>
+  
+  <author>
+    <name>Al Zaudtke</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>To Do - Revive Blog</title>
+    <link href="https://zaudtke.com/to-do-revive-blog/"/>
+    <id>https://zaudtke.com/to-do-revive-blog/</id>
+    <published>2017-08-31T19:23:18.000Z</published>
+    <updated>2017-08-31T19:47:33.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Well it’s been just over 3 years since I launched this blog.  In that time I wrote one post, yes, one post.  That’s not good.  I knew I w
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
