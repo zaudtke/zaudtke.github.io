@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Al Zaudtke</title>
   
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zaudtke.com/"/>
@@ -13,7 +14,7 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>To Do - Revive Blog</title>
@@ -27,6 +28,7 @@
       &lt;p&gt;Well it’s been just over 3 years since I launched this blog.  In that time I wrote one post, yes, one post.  That’s not good.  I knew I wanted a static site.  I went down the path, and got it all set up, but it just didn’t work for me.  So the site sat idle.  I also wasn’t happy with how it looked, and wanted something else.  Lastly, I decided I didn’t need or want Bootstrap, so the search began.
     
     </summary>
+    
     
     
   </entry>
